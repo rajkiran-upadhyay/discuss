@@ -1,0 +1,158 @@
+body {
+
+  width: 60%;
+  margin: 0 auto;
+  background: linear-gradient(to right,rgb(71, 184, 105),rgb(207, 149, 149));
+  /* border: 1px solid red; */
+}
+/*  */
+
+header h6 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(105, 83, 83);
+  font-weight: bold;
+text-shadow: 0 3px 4px brown;
+}
+.form{
+  /* border:2px inset rgb(58, 33, 148);  */
+  width: 75%;
+  margin-left: 3px;
+}
+input {
+   display: inline;
+  font-size: 12px;
+  color: blue;
+  width: 80%;
+
+  margin:2px 20px 2px 5px;
+  border: none;
+  /* border:3px solid black; */
+  outline: none;
+  border: 3px outset #2c3e50;
+  padding: 2px;
+
+}
+
+.task {
+
+  background-color: #34495e;
+
+  padding: 2px;
+  margin-left: 1px;
+  list-style: none;
+  border-radius: 1px;
+  border-bottom-left-radius: 9px;
+  border-top-right-radius: 9px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px  grey ;
+
+}
+
+.task span {
+  color: white;
+}
+
+.icon {
+  float: right;
+  margin-right: 8px;
+}
+
+article {
+  display: grid;
+}
+.edit-todo{
+
+  width:90%;
+  font-size:16px;
+  color:#ffffff;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid #FFFFFF;
+}
+.button{
+
+  margin: 0 10px;
+  padding: 10px;
+  font-size:14px;
+  color: #6c6777;
+  background-color: #fff;
+  border:none;
+  cursor: pointer;
+  width:100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.button.selected{
+
+  color:#fff;
+  background-color: #6c6777;
+}
+
+.button.clear{
+
+  float:right;
+  color:#fff;
+  background-color: #ee1630;
+  width:170px;
+}
+.bton{
+  border-radius: 5px;
+  background: grey;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+.container3{
+  /* border: 1px dashed blue; */
+  margin-top: 3px;
+  display: flex;
+
+}
+.container4{
+  display: flex;
+  /* border: 3px solid yellow; */
+  margin: 2px;
+  width: 70%;
+}
+.container1{
+  display: flex;
+  /* border: 3px dashed brown; */
+  margin-left: 2px;
+ 
+}
+
+.ull li{
+  margin: 3px;
+  /* border: 2px dashed red; */
+}
+#ok{
+  background: #f0f0f0;
+  color: black;
+  font-size: 15px;
+  border-radius: 4px;
+  height: 21px;
+  box-shadow: 0 0 6px grey;
+}
+
+@media only screen and (max-width:600px) {
+
+  .container3{
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .container1{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+  .ull li span{
+    display: block;
+    /* border: 2px dashed rgb(6, 163, 98); */
+  }
+  
+ 
+ 
+}
